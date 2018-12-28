@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/one/one.iml" filepath="$PROJECT_DIR$/one/one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/synchronized_evo/synchronized_evo.iml" filepath="$PROJECT_DIR$/synchronized_evo/synchronized_evo.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread.iml" filepath="$PROJECT_DIR$/thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/two/two.iml" filepath="$PROJECT_DIR$/two/two.iml" />
     </modules>

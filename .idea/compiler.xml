@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="one" />
+        <module name="synchronized_evo" />
         <module name="two" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="one" target="1.8" />
+      <module name="synchronized_evo" target="1.8" />
       <module name="thread" target="1.8" />
       <module name="two" target="1.8" />
     </bytecodeTargetLevel>
