@@ -1,7 +1,7 @@
 package com.yuan.test2;
 
 /**
- * 访问同一个对象的不同的普通同步方法
+ * 解决第5种情况：访问同一个对象的不同的普通同步方法
  */
 public class MySyncRunnable6 implements Runnable {
 

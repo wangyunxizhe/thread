@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699f7eb0-0dfe-451f-96e4-2d19adf7c62a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable7.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncWithException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test3/MySyncRunnable10.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test3/MySyncRunnable8.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test3/MySyncRunnable9.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test4/MyLock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test4/MySyncRunnable11.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test5/MySyncRunnable12.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test5/MySyncRunnable13.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable5.java" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable6.java" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/synchronized_evo/src/main/resources/synchronized深入用法" afterPath="$PROJECT_DIR$/synchronized_evo/src/main/resources/synchronized深入用法" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/synchronized_evo/target/classes/synchronized深入用法" afterPath="$PROJECT_DIR$/synchronized_evo/target/classes/synchronized深入用法" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,31 +35,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="synchronized深入用法" pinned="false" current-in-tab="false">
+      <file leaf-file-name="synchronized深入用法" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/resources/synchronized深入用法">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="701">
+              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySyncRunnable5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable5.java">
+      <file leaf-file-name="MySyncRunnable13.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test5/MySyncRunnable13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="90">
+              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySyncRunnable6.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable6.java">
+      <file leaf-file-name="MySyncRunnable12.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test5/MySyncRunnable12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -91,8 +104,17 @@
         <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test1/MySyncRunnable4.java" />
         <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test1/MyErrorRunnable.java" />
         <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable5.java" />
-        <option value="$PROJECT_DIR$/synchronized_evo/src/main/resources/synchronized深入用法" />
         <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable6.java" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable7.java" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncWithException.java" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test3/MySyncRunnable8.java" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test3/MySyncRunnable9.java" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test3/MySyncRunnable10.java" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test4/MySyncRunnable11.java" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test4/MyLock.java" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/resources/synchronized深入用法" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test5/MySyncRunnable12.java" />
+        <option value="$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test5/MySyncRunnable13.java" />
       </list>
     </option>
   </component>
@@ -139,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,7 +266,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test2" />
+              <option name="myItemId" value="test5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synchronized_evo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,9 +334,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synchronized_evo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
@@ -291,15 +381,21 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
   </component>
-  <component name="RunManager" selected="Application.MySyncRunnable6">
-    <configuration default="false" name="MyErrorRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuan.test5" />
+      <recent name="com.yuan.test2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MySyncRunnable13">
+    <configuration default="false" name="MySyncRunnable9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yuan.test1.*" />
+          <option name="PATTERN" value="com.yuan.test3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yuan.test1.MyErrorRunnable" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.test3.MySyncRunnable9" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -312,14 +408,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MySyncRunnable3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yuan.test1.*" />
+          <option name="PATTERN" value="com.yuan.test3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yuan.test1.MySyncRunnable3" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.test3.TestClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -332,14 +428,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MySyncRunnable4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MySyncRunnable11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yuan.test1.*" />
+          <option name="PATTERN" value="com.yuan.test4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yuan.test1.MySyncRunnable4" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.test4.MySyncRunnable11" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -352,14 +448,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MySyncRunnable5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MySyncRunnable12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yuan.test2.*" />
+          <option name="PATTERN" value="com.yuan.test5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yuan.test2.MySyncRunnable5" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.test5.MySyncRunnable12" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -372,14 +468,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MySyncRunnable6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MySyncRunnable13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yuan.test2.*" />
+          <option name="PATTERN" value="com.yuan.test5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yuan.test2.MySyncRunnable6" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.test5.MySyncRunnable13" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -773,19 +869,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MyErrorRunnable" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MySyncRunnable3" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MySyncRunnable4" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MySyncRunnable5" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MySyncRunnable6" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MySyncRunnable9" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestClass" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MySyncRunnable11" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MySyncRunnable12" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MySyncRunnable13" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MySyncRunnable6" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MySyncRunnable5" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyErrorRunnable" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MySyncRunnable4" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MySyncRunnable3" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MySyncRunnable13" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MySyncRunnable12" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MySyncRunnable11" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MySyncRunnable9" />
       </list>
     </recent_temporary>
   </component>
@@ -802,7 +898,8 @@
       <workItem from="1545382609301" duration="2947000" />
       <workItem from="1545613398081" duration="3531000" />
       <workItem from="1545699404308" duration="7757000" />
-      <workItem from="1545977799872" duration="12102000" />
+      <workItem from="1545977799872" duration="12234000" />
+      <workItem from="1546391119292" duration="10515000" />
     </task>
     <task id="LOCAL-00001" summary="微调">
       <created>1545978271557</created>
@@ -822,11 +919,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26337000" />
+    <option name="totallyTimeSpent" value="36984000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="1" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -843,7 +940,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20439914" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20708154" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -872,7 +969,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -881,7 +978,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/多线程共享变量之内存可见性.txt">
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/resources/synchronized深入用法">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -889,11 +1002,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/多线程共享变量之内存可见性.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/two/src/main/java/com/yuan/two/VolatileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,30 +1132,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test1/MySyncRunnable2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/one/src/main/java/com/yuan/one/TicketsThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,7 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,18 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test1/MySyncRunnable3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1089,10 +1168,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test1/MySyncRunnable1.java">
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncWithException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test3/MySyncRunnable9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test3/MySyncRunnable10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test3/MySyncRunnable8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test4/MySyncRunnable11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
+          <caret line="334" column="9" lean-forward="false" selection-start-line="334" selection-start-column="9" selection-end-line="334" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test4/MyLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1105,26 +1265,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test1/MySyncRunnable2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test1/MySyncRunnable1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test1/MySyncRunnable3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/cs/UTF_8.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="523" column="0" lean-forward="false" selection-start-line="523" selection-start-column="0" selection-end-line="523" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test5/MySyncRunnable13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test5/MySyncRunnable12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/resources/synchronized深入用法">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/synchronized_evo/src/main/java/com/yuan/test2/MySyncRunnable6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="701">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding />
         </state>
       </provider>

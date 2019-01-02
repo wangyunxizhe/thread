@@ -1,14 +1,17 @@
 package com.yuan.test2;
 
 /**
- * 解决第4种情况：同时访问同步方法与非同步方法
+ * 解决第6种情况：同时访问静态synchronized和非静态synchronized的方法
+ * <p>
+ * 因为加上static修饰的同步方法持有的锁是类对象，而没有加static修饰的同步方法持有的锁是实例对象，
+ * 两把锁不是同一个，所以自然没有冲突，可以同时进行访问
  */
-public class MySyncRunnable5 implements Runnable {
+public class MySyncRunnable7 implements Runnable {
 
-    static MySyncRunnable5 r = new MySyncRunnable5();
+    static MySyncRunnable7 r = new MySyncRunnable7();
 
-    public synchronized void method1() {
-        System.out.println("~~~~~这里是同步方法~~~~~" +
+    public synchronized static void method1() {
+        System.out.println("~~~~~这里是静态同步方法1~~~~~" +
                 "当前线程是：" + Thread.currentThread().getName());
         try {
             Thread.sleep(3000);//休眠3秒，让两个线程的执行顺序更明显，便于观察
@@ -18,8 +21,8 @@ public class MySyncRunnable5 implements Runnable {
         System.out.println(Thread.currentThread().getName() + "运行结束。");
     }
 
-    public void method2() {
-        System.out.println("=====这里是非同步方法=====" +
+    public synchronized void method2() {
+        System.out.println("=====这里是非静态同步方法2=====" +
                 "当前线程是：" + Thread.currentThread().getName());
         try {
             Thread.sleep(3000);//休眠3秒，让两个线程的执行顺序更明显，便于观察
@@ -31,7 +34,6 @@ public class MySyncRunnable5 implements Runnable {
 
     @Override
     public void run() {
-        //达到了2个线程同时访问同步方法与非同步方法
         if (Thread.currentThread().getName().equals("abc")) {
             method1();
         } else {

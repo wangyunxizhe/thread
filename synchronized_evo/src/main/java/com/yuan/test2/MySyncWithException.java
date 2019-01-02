@@ -1,25 +1,30 @@
 package com.yuan.test2;
 
 /**
- * 解决第4种情况：同时访问同步方法与非同步方法
+ * 解决第7种情况：方法抛出异常后，会释放锁
+ * <p>
+ * 从代码执行可以看出：第一个线程一旦抛出了异常，第二个线程会立刻进入同步方法，这意味着第一个线程已经将锁释放。
  */
-public class MySyncRunnable5 implements Runnable {
+public class MySyncWithException implements Runnable {
 
-    static MySyncRunnable5 r = new MySyncRunnable5();
+    static MySyncWithException r = new MySyncWithException();
 
     public synchronized void method1() {
-        System.out.println("~~~~~这里是同步方法~~~~~" +
+        System.out.println("~~~~~这里是静态同步方法1~~~~~" +
                 "当前线程是：" + Thread.currentThread().getName());
         try {
             Thread.sleep(3000);//休眠3秒，让两个线程的执行顺序更明显，便于观察
+            throw new Exception("人为抛出异常");
         } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
             e.printStackTrace();
         }
         System.out.println(Thread.currentThread().getName() + "运行结束。");
     }
 
-    public void method2() {
-        System.out.println("=====这里是非同步方法=====" +
+    public synchronized void method2() {
+        System.out.println("=====这里是非静态同步方法2=====" +
                 "当前线程是：" + Thread.currentThread().getName());
         try {
             Thread.sleep(3000);//休眠3秒，让两个线程的执行顺序更明显，便于观察
@@ -31,7 +36,6 @@ public class MySyncRunnable5 implements Runnable {
 
     @Override
     public void run() {
-        //达到了2个线程同时访问同步方法与非同步方法
         if (Thread.currentThread().getName().equals("abc")) {
             method1();
         } else {
@@ -50,4 +54,5 @@ public class MySyncRunnable5 implements Runnable {
         }
         System.out.println("完成");
     }
+
 }
