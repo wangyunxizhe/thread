@@ -4,6 +4,7 @@ package com.yuan.test1;
  * 对象锁示例2，方法锁形式
  * <p>
  * 这样的形式也可以达到让线程一个一个执行的效果，而不会一起执行
+ * 与“1”中的代码块形式的区别：代码块形式手动指定锁对象，方法锁形式synchronized关键字直接修饰方法，锁对象默认是this
  */
 public class MySyncRunnable2 implements Runnable {
 

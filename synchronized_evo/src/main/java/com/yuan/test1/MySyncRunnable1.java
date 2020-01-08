@@ -12,6 +12,7 @@ public class MySyncRunnable1 implements Runnable {
     static MySyncRunnable1 r = new MySyncRunnable1();
 
     //如果实际业务中，需要锁住不同需求的代码块，那么一个this（对象锁）就不够用了，这时可以自己创建锁来用
+    //如果全部代码块都用同一把锁的话，不需要串行的部分也会被串行执行
     Object lock1 = new Object();
     Object lock2 = new Object();
 

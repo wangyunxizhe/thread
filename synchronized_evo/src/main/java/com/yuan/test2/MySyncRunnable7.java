@@ -3,6 +3,7 @@ package com.yuan.test2;
 /**
  * 解决第6种情况：同时访问静态synchronized和非静态synchronized的方法
  * <p>
+ * 结果：并行执行。
  * 因为加上static修饰的同步方法持有的锁是类对象，而没有加static修饰的同步方法持有的锁是实例对象，
  * 两把锁不是同一个，所以自然没有冲突，可以同时进行访问
  */

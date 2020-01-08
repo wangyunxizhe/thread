@@ -10,6 +10,7 @@ public class MySyncRunnable13 implements Runnable {
 
     @Override
     public void run() {
+        //线程A在持有r1锁的情况下去请求r2的锁
         synchronized (r1) {
             System.out.println("锁对象是r1的代码块1，我是线程" + Thread.currentThread().getName());
             synchronized (r2) {
@@ -17,6 +18,7 @@ public class MySyncRunnable13 implements Runnable {
             }
         }
 
+        //与此同时，线程B在持有r2锁的情况下去请求r1的锁。这样线程A，B在锁的调配上形成了死局
         synchronized (r2) {
             System.out.println("锁对象是r2的代码块2，我是线程" + Thread.currentThread().getName());
             synchronized (r1) {

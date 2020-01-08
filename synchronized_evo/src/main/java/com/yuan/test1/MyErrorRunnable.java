@@ -39,8 +39,8 @@ public class MyErrorRunnable implements Runnable {
     @Override
     public void run() {
 //        errorMethod();
-//        method1();
-        method2();
+        method1();
+//        method2();
     }
 
     public static void main(String[] args) throws Exception {

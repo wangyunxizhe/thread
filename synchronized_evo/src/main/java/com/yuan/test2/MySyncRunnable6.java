@@ -2,6 +2,7 @@ package com.yuan.test2;
 
 /**
  * 解决第5种情况：访问同一个对象的不同的普通同步方法
+ * 结果：串行执行。因为两个synchronized方法持有的是同一把锁（this）
  */
 public class MySyncRunnable6 implements Runnable {
 

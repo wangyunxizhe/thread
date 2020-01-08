@@ -2,6 +2,7 @@ package com.yuan.test3;
 
 /**
  * 可重入粒度测试：调用类中另外的同步方法
+ * 结论：证明了“可重入”不要求是同一个方法
  */
 public class MySyncRunnable9 {
 

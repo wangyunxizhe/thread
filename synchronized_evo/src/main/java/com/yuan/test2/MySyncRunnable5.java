@@ -2,6 +2,7 @@ package com.yuan.test2;
 
 /**
  * 解决第4种情况：同时访问同步方法与非同步方法
+ * 结果：并行执行。没加锁的方法并不会收到加锁方法的影响。
  */
 public class MySyncRunnable5 implements Runnable {
 

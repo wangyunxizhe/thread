@@ -4,6 +4,7 @@ package com.yuan.test2;
  * 解决第7种情况：方法抛出异常后，会释放锁
  * <p>
  * 从代码执行可以看出：第一个线程一旦抛出了异常，第二个线程会立刻进入同步方法，这意味着第一个线程已经将锁释放。
+ * 原理：当某个线程在执行加锁的方法时抛出了异常，那么JVM会帮该线程释放锁以便让下个线程进入加锁的方法。
  */
 public class MySyncWithException implements Runnable {
 

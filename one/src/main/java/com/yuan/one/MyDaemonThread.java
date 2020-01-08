@@ -5,13 +5,16 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 
 /**
- * 守护线程类
+ * 自定义守护线程类
+ *
+ * 在java中，守护线程最典型的应用就是 GC (垃圾回收器)
+ *
  */
 public class MyDaemonThread implements Runnable {
 
     //不断的向指定文件中写“word0，word1,...”
     private void writeToFile() throws Exception {
-        File filename = new File("e:" + File.separator + "daemon.txt");
+        File filename = new File("daemon.txt");
         OutputStream os = new FileOutputStream(filename, true);
         int count = 0;
         while (count < 999) {

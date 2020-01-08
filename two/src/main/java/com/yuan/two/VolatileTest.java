@@ -36,7 +36,7 @@ public class VolatileTest {
     public static void main(String[] args) {
         System.out.println("开始运行");
         final VolatileTest test = new VolatileTest();
-        for (int i = 0; i < 500; i++) {
+        for (int i = 0; i < 10000; i++) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
