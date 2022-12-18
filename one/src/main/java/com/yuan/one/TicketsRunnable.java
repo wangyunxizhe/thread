@@ -1,8 +1,8 @@
 package com.yuan.one;
 
 /**
- * Runnable避免了继承Thread方式的缺陷，因为java时单继承
- * 从两个方式的卖票例子还可以看出Runnable方式可以被多个线程（Thread对象：t1,t2,t3）共享，
+ * Runnable避免了继承Thread方式的缺陷，因为java是单继承
+ * 从两个方式的卖票例子还可以看出Runnable方式可以使类变量（ticketsCon）被多个线程（Thread对象：t1,t2,t3）共享，
  * 适合于多个线程处理同一资源的情况
  */
 public class TicketsRunnable {
