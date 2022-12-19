@@ -1,0 +1,18 @@
+ThreadPoolExecutor
+线程池的几种状态（源码386L-390L）:
+//111 === RUNNING  正常接收任务
+private static final int RUNNING    = -1 << COUNT_BITS;
+//000 === SHUTDOWN  不接收新任务，但内部会继续处理阻塞队列中的任务，进行中的任务也会正常继续处理
+private static final int SHUTDOWN   =  0 << COUNT_BITS;
+//001 === STOP 不接收新任务，也不处理阻塞队列里的任务，同时也会中断正在执行的任务
+private static final int STOP       =  1 << COUNT_BITS;
+//010 === TIDYING 过度状态，代表当前线程池即将Game Over
+private static final int TIDYING    =  2 << COUNT_BITS;
+//010 === TERMINATED 真正的结束，STOP -> TIDYING -> TERMINATED
+private static final int TERMINATED =  3 << COUNT_BITS;
+
+源码393L-394L:
+//得到线程池的状态
+private static int runStateOf(int c)     { return c & ~CAPACITY; }
+//得到当前线程池的线程数量
+private static int workerCountOf(int c)  { return c & CAPACITY; }

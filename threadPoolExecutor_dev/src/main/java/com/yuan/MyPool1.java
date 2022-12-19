@@ -2,7 +2,7 @@ package com.yuan;
 
 import java.util.concurrent.*;
 
-public class MyPool {
+public class MyPool1 {
 
     public static void main(String[] args) {
         //虽然jdk提供了自带的创建线程池的方法，但工作中并步建议使用，因为这样的创建方式对线程池的控制粒度比较小
@@ -31,6 +31,18 @@ public class MyPool {
                 System.err.println(i);
             }
         });
+
+        //调用shutdown()线程池会由RUNNING转为SHUTDOWN状态
+        myPool.shutdown();
+
+        //调用shutdown()线程池会由RUNNING转为STOP状态
+        myPool.shutdownNow();
+        /**
+         * 以上两种状态都会转为TIDYING（过渡状态），
+         * SHUTDOWN状态会处理完未结束的线程任务，等到工作线程为空时转到TIDYING状态，
+         * STOP状态等到工作线程为空时就会转到TIDYING状态，
+         * 最终，到达TIDYING状态后，都会调用terminated()，到达TERMINATED状态
+         */
 
     }
 
