@@ -1,5 +1,5 @@
 ThreadPoolExecutor
-线程池的几种状态（源码386L-390L）:
+一，线程池的几种状态（源码386L-390L）:
 //111 === RUNNING  正常接收任务
 private static final int RUNNING    = -1 << COUNT_BITS;
 //000 === SHUTDOWN  不接收新任务，但内部会继续处理阻塞队列中的任务，进行中的任务也会正常继续处理
@@ -16,3 +16,16 @@ private static final int TERMINATED =  3 << COUNT_BITS;
 private static int runStateOf(int c)     { return c & ~CAPACITY; }
 //得到当前线程池的线程数量
 private static int workerCountOf(int c)  { return c & CAPACITY; }
+
+二，线程池的四种拒绝策略
+1，ThreadPoolExecutor.AbortPolicy === 默认拒绝策略，拒绝任务并抛出异常（拒绝时间点 = 最大线程数 + 阻塞队列，超出的任务不执行，会抛异常）
+2，ThreadPoolExecutor.CallerRunsPolicy === 调用线程运行还没有执行完的任务（拒绝时间点 = 最大线程数 + 阻塞队列，但超出的任务还是会继续被执行）
+3，ThreadPoolExecutor.DiscardPolicy === 直接拒绝任务，不抛出异常（拒绝时间点 = 最大线程数 + 阻塞队列，超出的任务不执行，也不抛异常）
+4，ThreadPoolExecutor.DiscardOldestPolicy === 触发拒绝策略，只要还有任务新增，会一直丢弃阻塞队列中最老的任务，并将新的任务加入（拒绝时间点 = 最大线程数 + 阻塞队列，任务的执行顺序是 核心线程数 —> 阻塞队列 —> 最大线程数）
+原文链接：https://blog.csdn.net/Trouvailless/article/details/124451560
+
+三，execute和submit的区别
+1，execute只接受Runnable参数，没有返回值；
+ 而submit可以接受Runnable参数和Callable参数，并且返回了Future对象，可以进行任务取消、获取任务结果、判断任务是否执行完毕/取消等操作。
+2，通过execute方法提交的任务如果出现异常会直接抛出原异常，异常位置是在线程池中的线程中；
+ 而submit方法是捕获了异常的，只有当调用Future的get方法时，才会抛出ExecutionException异常，异常位置是在调用get方法的线程。
