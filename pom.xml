@@ -13,6 +13,7 @@
         <module>two</module>
         <module>synchronized_evo</module>
         <module>threadPoolExecutor_dev</module>
+        <module>reentrantLock_dev</module>
     </modules>
 
 
