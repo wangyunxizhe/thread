@@ -15,6 +15,7 @@
         <module>threadPoolExecutor_dev</module>
         <module>reentrantLock_dev</module>
         <module>atomicXXX</module>
+        <module>countDownLatch_dev</module>
     </modules>
 
 
