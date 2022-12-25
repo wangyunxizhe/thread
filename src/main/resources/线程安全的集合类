@@ -1,0 +1,2 @@
+Hashtable，Collections.synchronizedXXX(List/Map/...) ===  这两种方式是使用synchronized关键字修饰put/get等方法的方式来实现线程安全
+ConcurrentHashMap
